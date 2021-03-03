@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<title>2021-01-25: Jenny Nguyen Proposal</title>
+
+	<link rel="stylesheet" href="dist/reset.css" />
+	<link rel="stylesheet" href="dist/reveal.css" />
+	<link rel="stylesheet" href="dist/theme/cutsom.css" id="theme" />
+
+	<link rel="stylesheet" href="bigfoot/bigfoot-number.css" />
+	<script type="text/javascript" src="bigfoot/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="bigfoot/bigfoot.js"></script>
+	<script type="text/javascript">
+		$.bigfoot();
+	</script>
+	<script type="text/javascript">
+		var bigfoot = $.bigfoot(
+			{
+				deleteOnUnhover: false,
+				preventPageScroll: false,
+				hoverDelay: 250
+			}
+		);
+	</script>
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme" />
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section class="title" data-background="assets/hexagons.png" data-background-size="100px"
+				data-background-repeat="repeat" , data-background-color="#035B83">
+				<h1 class="title__title">Investigating Determinants of Social Communication Deficits in ASD</h1>
+				<h2 class="title__tagline">Committee Meeting Presentation</h3>
+					<p>Jenny Nguyen</p>
+					<div class="r-hstack">
+						<img src="assets/Logos_BME.png" style="padding: 0.50em" height="50" class="filter-light">
+						<img src="assets/Logos_HB.png" style="padding: 0.50em" height="50">
+						<img src="assets/Logos_OBI.png" style="padding: 0.50em" height="50">
+					</div>
+			</section>
+			<!-- Introduction -->
+			<section>
+				<section data-background="assets/bg/Thur.svg" , data-background-color="#035B83">
+					<div class="fillbox">
+						<img src="assets/remixicons/Editor/list-check.svg" class="filter-light" width=40 />
+						<h1>Introduction</h1>
+					</div>
+				</section>
+				<section data-background="assets/hexagons.png" data-background-size="200px"
+					data-background-repeat="repeat" data-background-color="#1c1425">
+					<h2>What is autism spectrum disorder (ASD)?</h2>
+					<img src="assets/WhatIsASD.svg" style="padding: 0.50em" height="400" class="fragment fade-up">
+					<p>
+						<sup id="fnref:DSM"><a href="#fn:DSM" rel="footnote">1</a></sup>
+						<sup id="fnref:Ofner2018"><a href="#fn:Ofner2018" rel="footnote">1</a></sup>
+
+					</p>
+					<div class="footnotes">
+						<ol>
+							<li class="footnote" id="fn:DSM">
+								<p>American Psychiatric Association. Diagnostic and Statistical Manual of Mental
+									Disorders (DSM-5®).
+								<p>
+							</li>
+							<li class="footnote" id="fn:Ofner2018">
+								<p>Ofner, M. et al. Autism spectrum disorder among children and youth in Canada 2018. (Public Health Agency of Canada Ottawa, ON, 2018).
+								<p>
+							</li>
+						</ol>
+					</div>
+				</section>
+				<section data-background-color="#DDE4EF">
+					<!-- <section data-background-image="vertical-gradient(to right, #c9d6FF, #e2e2e2)"> -->
+					<img src="assets/zondicons/conversation.svg" class="filter-dark" width=100 />
+					<h1>Why is understanding social communication important?</h1>
+				</section>
+				<section data-background="assets/hexagons.png" data-background-size="100px"
+					data-background-repeat="repeat" data-background-color="#66C8C9">
+					<h1>Social Communication Difficulties</h1>
+					<p>There are three main ways in which social communication difficulties manifest in ASD.
+						<sup id="fnref:DSM"><a href="#fn:DSM_2" rel="footnote">1</a></sup>
+					</p>
+					<div class="r-hstack">
+						<div class='fragment' style="padding: 0.50em">
+							<p>1. Difficulty with <b>social-emotional reciprocity</b></p>
+						</div>
+						<div class='fragment' style="padding: 0.50em">
+							<p>2. Atypical <b>nonverbal communication</b></p>
+						</div>
+						<div class='fragment' style="padding: 0.50em">
+							<p>3. Difficulty developing, maintaining and understanding <b>relationships</b></p>
+						</div>
+					</div>
+					<div class='fragment'>
+						<div class="fillbox">
+							<!-- <img src="assets/remixicons/Editor/list-check.svg" class="filter-dark" width=40/> -->
+							<h3 style="color: #ffffff">Impact on Outcomes</h3>
+							<p style="color: #ffffff">Social communication deficits have negative effects on academic,
+								mental health, employment, and quality of life outcomes for children and youth with ASD.
+								<sup id="fnref:Howlin2017"><a href="#fn:Howlin2017" rel="footnote">1</a></sup>
+								<sup id="fnref:Hong2016"><a href="#fn:Hong2016" rel="footnote">1</a></sup>
+								<sup id="fnref:Spence1999"><a href="#fn:Spence1999" rel="footnote">1</a></sup>
+							</p>
+						</div>
+					</div>
+
+					<div class="footnotes">
+						<ol>
+							<li class="footnote" id="fn:DSM_2">
+								<p>American Psychiatric Association. Diagnostic and Statistical Manual of Mental
+									Disorders (DSM-5®).
+								<p>
+							</li>
+							<li class="footnote" id="fn:Howlin2017">
+								<p>Howlin, P. & Magiati, I. Autism spectrum disorder: outcomes in adulthood. Curr. Opin.
+									Psychiatry 30, 69–76 (2017).
+								<p>
+							</li>
+							<li class="footnote" id="fn:Hong2016">
+								<p>Hong, J., Bishop-Fitzpatrick, L., Smith, L. E., Greenberg, J.S. & Mailick, M. R.
+									Factors Associated with Subjective Quality of Life of Adults with Autism Spectrum
+									Disorder: Self-Report Versus Maternal Reports. J. Autism Dev. Disord. 46, 1368–1378
+									(2016).
+								<p>
+							</li>
+							<li class="footnote" id="fn:Spence1999">
+								<p>Spence, S. H., Donovan, C. & Brechman-Toussaint, M. Social skills, social outcomes,
+									and cognitive features of childhood social phobia. J. Abnorm. Psychol. 108, 211–221
+									(1999).
+								</p>
+							</li>
+						</ol>
+					</div>
+				</section>
+				<section data-background-color="#f3e7e9">
+					<h2>The determinants of Social Communication have been studied independently</h2>
+					<img src="assets/Factors.svg" width=75% />
+				</section>
+				<section data-background-image="assets/FactorsPathGraphic.svg">
+				</section>
+				<section data-background-color="#f3e7e9">
+					<div class="r-hstack">
+
+						<div class='fragment' style="padding: .5em" width=60%>
+							<h1>Gaps in the Literature</h1>
+							<ul>
+								<li>The predictors of social communication are studied independently of each other</li>
+								<li>No consideration for the interplay between these factors</li>
+								<li>Given that these factors are often highly correlated, there is a gap in
+									understanding of how the constellations of these variables together may influence
+									social communication abilities in ASD.</li>
+							</ul>
+						</div>
+						<img src="assets/GapCliff.svg" width=30% style="padding: .5em" />
+					</div>
+				</section>
+				<section data-background-color="#7194D3">
+					<div class="r-hstack">
+						<img src="assets/QuestionGraphic.svg" width=40% style="padding: .5em" />
+						<div class='fragment' style="padding: .5em" width=60%>
+							<h1>Research Question</h1>
+							<h3 style='text-transform: none;'>What is the differential contribution of demographics
+								(sex, race/ethnicity, and socioeconomic status), IQ, sensory profiles, attention,
+								anxiety, and language on social communication abilities?</h3>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#f3e7e9">
+					<img src="assets/Objectives.svg" width=100% />
+				</section>
+
+				<section data-background-image="assets/heterogeneous.svg" data-background-position=" 5% 100%"
+					data-background-size="18%" data-background-color="#BC1B2E">
+					<!-- <img src="assets/remixicons/Weather/haze-2-line.svg" class="filter-light" width=60/> -->
+					<h1>Significance of this Work</h1>
+					<img src="assets/remixicons/Health/mental-health-fill.svg" class="filter-light" width=60 />
+					<h2 style='text-transform: none;'>A better understanding of the determinants of social communication
+						difficulties could improve
+						interventions</h2>
+					<ul>
+						<li>Individuals with ASD experience varying levels of social communication difficulties (i.e.,
+							different level of severity and difficulty with different sociocommunicative skills).</li>
+						<li>Therefore, different factors could be driving the heterogeneity in social communication
+							difficulties within ASD</li>
+						<li>Understanding which factors impact social communication and specifically which skills, could
+							help us develop <u>tailored interventions</u> for children with ASD.</li>
+					</ul>
+				</section>
+				<section data-background-color="#1F4363" data-background="assets/hexagons.png"
+					data-background-size="100px" data-background-repeat="repeat">
+					<h2>Tailoring interventions could potential improve outcomes for individuals with ASD</h2>
+					<img src="assets/WaitTimes.svg" width=60% />
+				</section>
+			</section>
+
+			<!-- Background -->
+			<section>
+				<section data-background="assets/bg/Kander.svg" data-background-color="#035B83">
+					<div class="fillbox">
+						<img src="assets/remixicons/Document/pages-fill.svg" class="filter-light" width=50 />
+						<h1>Background</h1>
+					</div>
+				</section>
+				<section data-background-color="#f3e7e9">
+					<h2>Determinants of social communication</h2>
+					<img src="assets/Factors.svg" width=80% />
+				</section>
+				<section data-background-color="#313060">
+					<img src="assets/DemographicsIcon.svg" width=10% />
+					<h2>Demographic Factors</h2>
+					<div class="r-hstack">
+						<div class='fragment' style="padding: 1em; width: 30%;">
+							<h3 style='text-transform: none'>Sex & Gender</h3>
+							<ul>
+								<li>The findings are mixed.</li>
+								<li>Males with ASD experience ↓ social motivation and friendship when compared to males.
+									<sup id="fnref:Sedgewick2016"><a href="#fn:Sedgewick2016" rel="footnote">1</a></sup>
+									<sup id="fnref:Cook2018"><a href="#fn:Cook2018" rel="footnote">1</a></sup>
+									<sup id="fnref:Dean2017"><a href="#fn:Dean2017" rel="footnote">1</a></sup>
+									<sup id="fnref:Constantino2010"><a href="#fn:Constantino2010" rel="footnote">1</a></sup>
+								</li>
+								<li>Some studies suggest that females with ASD experience more social and communicative
+									challenges.
+									<sup id="fnref:Hartley2009"><a href="#fn:Hartley2009" rel="footnote">1</a></sup>
+									<sup id="fnref:Evans2019"><a href="#fn:Evans2019" rel="footnote">1</a></sup>
+								</li>
+							</ul>
+						</div>
+						<div class='fragment' style="padding: 1em; width: 34%;">
+							<h3 style='text-transform: none'>Socioeconomic Status (SES)</h3>
+							<ul>
+								<li>Literature supports that ↓ SES = ↑ social communication difficulties</li>
+								<li>In particular, lower household income and fewer number of years of maternal
+									education a predictive of lower social and communication scores
+								</li>
+							</ul>
+						</div>
+						<div class='fragment' style="padding: 1em; width: 30%;">
+							<h3 style='text-transform: none'>Race/Ethnicity</h3>
+							<ul>
+								<li>Comparisons are typically made between white and non-white groups.</li>
+								<li>Non-white children with ASD tend to score significantly on social and communication
+									measures.</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footnotes -->
+					<div class="footnotes">
+						<ol>
+							<li class="footnote" id="fn:Sedgewick2016">
+								<p>Sedgewick, F., Hill, V., Yates, R., Pickering, L. & Pellicano, E. Gender
+									differences in the social motivation and friendship experiences of autistic
+									and non-autistic adolescents. J. AUTISM Dev. Disord. 46, 1297–1306
+									(2016).
+								<p>
+							</li>
+							<li class="footnote" id="fn:Cook2018">
+								<p>Cook, A., Ogden, J. & Winstone, N. Friendship motivations, challenges and
+									the role of masking for girls with autism in contrasting school settings.
+									Eur. J. Spec. Needs Educ. 33, 302–315 (2018).
+								<p>
+							</li>
+							<li class="footnote" id="fn:Dean2017">
+								<p>Dean, M., Harwood, R. & Kasari, C. The art of camouflage: Gender differences
+									in the social behaviors of girls and boys with autism spectrum disorder.
+									AUTISM 21, 678–689 (2017).
+								<p>
+							</li>
+							<li class="footnote" id="fn:Constantino2010">
+								<p>Constantino, J. N., Zhang, Y., Frazier, T., Abbacchi, A. M. & Law, P.
+									Sibling recurrence and the genetic epidemiology of autism. Am. J. Psychiatry
+									167, 1349–1356 (2010).
+								</p>
+							</li>
+							<li class="footnote" id="fn:Hartley2009">
+								<p>Hartley, S. L. & Sikora, D. M. Sex Differences in Autism Spectrum Disorder:
+									An Examination of Developmental Functioning, Autistic Symptoms, and
+									Coexisting Behavior Problems in Toddlers. J. Autism Dev. Disord. 39,
+									1715–1722 (2009)
+								<p>
+							</li>
+							<li class="footnote" id="fn:Evans2019">
+								<p>Evans, S. C., Boan, A. D., Bradley, C. & Carpenter, L. A. Sex/Gender
+									Differences in Screening for Autism Spectrum Disorder: Implications for
+									Evidence-Based Assessment. J. Clin. Child Adolesc. Psychol. 48, 840–854
+									(2019).
+								</p>
+							</li>
+						</ol>
+					</div>
+				</section>
+				<section data-background-color="#D8620B">
+					<img src="assets/IQIcon.svg" width=25% />
+					<h2>IQ</h2>
+					<div class='fragment'>
+						<ul>
+							<li>Many of studies looking at the relationship between IQ and social communication, do not
+								include individuals with co-occurring intellectual disability (full-scale IQ < 70)</li>
+							<li>In individuals with ASD with normal-to-high cognitive abilities, children with lower
+								verbal IQ had more communication and social difficulties.</li>
+							<li>Some findings suggest the the IQ gap (discrepancy between verbal and performance IQ) has
+								predictive value.</li>
+						</ul>
+					</div>
+				</section>
+				<section data-background-color="#60AD45">
+					<img src="assets/SensoryIcon.svg" width=15% />
+					<h2>Sensory Processing</h2>
+					<div class='fragment'>
+						<ul>
+							<li>45-95% of individuals with ASD have significantly higher sensory processing difficulties
+								than the norm.</li>
+							<li>In both ASD and general populations, studies have also shown that sensory processing
+								difficulties are highly correlated with a greater number of autistic traits</li>
+							<li>In Sibs-ASD, sensory issues in infancy are predictive of severity of social symptoms in
+								early childhood. Findings suggest that there may be a <b>cascade effect</b> — ↑ sensory
+								seeking → ↓ social orienting → ↑ social difficulties </li>
+						</ul>
+					</div>
+				</section>
+				<section data-background-color="#FDB715">
+					<img src="assets/AttentionIcon.svg" width=15% />
+					<h2>Attention</h2>
+					<div class='fragment'>
+						<ul>
+							<li>The co-occurrence rate of ASD and attention deficit hyperactivity disorder (ADHD) ranges
+								from 14 to 78%</li>
+							<li>Challenges with social functioning is common in ADHD.</li>
+							<li>The combination of hyperactivity, impulsivity, and inattention impacts the ability to
+								fine-tune social behaviours, which, in turn leads, to social difficulties</li>
+							<li>In ASD, the presence of ADHD-traits results in significantly greater social and
+								communication difficulties.</li>
+							<li>Attention may impact ability to recognize facial emotion which may impact social
+								communication outcomes.</li>
+							<li>Early joint attention is also a well-documented predictor of social communication in
+								early childhood.</li>
+						</ul>
+					</div>
+				</section>
+				<section data-background-color="#47A5A2">
+					<img src="assets/AnxietyIcon.svg" width=15% />
+					<h2>Anxiety</h2>
+					<div class='fragment'>
+						<ul>
+							<li>The prevalence of a co-occurring anxiety diagnosis in ASD ranges from 37 to 42%</li>
+							<li>The association between anxiety and social communication is well established.</li>
+							<li>Children with ASD and children with anxiety disorders (but no ASD) have statistically
+								indistinguishable scores of social responsibility</li>
+							<li>A study comparing an ASD-only with an ASD-Anxiety group shows that anxiety may worsen
+								socio communicative difficulties in ASD.</li>
+							<li>Social motivation, in particular, is impacted by anxiety. In children and young adults
+								with ASD, anxiety was found to be associated with lower social motivation</li>
+						</ul>
+					</div>
+				</section>
+				<section data-background-color="#234224">
+					<img src="assets/MotorIcon.svg" width=15% />
+					<h2>Motor Impairments</h2>
+					<div class='fragment'>
+						<ul>
+							<li>The prevalence of motor impairments (e.g., atypical motor coordination, posture issues,
+								and difficulties with fine and gross motor movements) in individuals with ASD ranges
+								from 51 to 79%</li>
+							<li>In infants at risk of developing ASD (Sibs-ASD), early motor delays predicted a future
+								social communication delay.</li>
+							<li>There is evidence that physical activities, specifically interventions that target motor
+								skill impairments, may improve social communication outcomes</li>
+						</ul>
+					</div>
+				</section>
+				<section data-background-color="#AF312E">
+					<img src="assets/LanguageIcon.svg" width=15% />
+					<h2>Language</h2>
+					<div class='fragment'>
+						<ul>
+							<li>Difficulties in social and language development are correlated characteristics of ASD
+							</li>
+							<li>A temporal relationship between the two has been established: early childhood language
+								skills are predictive of future adult social functioning</li>
+							<li>There is research to support that language training in preschool children impacts the
+								development of Theory of Mind (ToM) skills, which is fundamental for social functioning
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section data-background-color="#f3e7e9">
+					<h2>Path Model</h2>
+					<img src="assets/PathModel.svg" width=80% />
+				</section>
+			</section>
+
+			<!-- Methods -->
+			<section>
+				<section data-background="assets/bg/Reuss.svg" , data-background-color="#035B83">
+					<div class="fillbox">
+						<img src="assets/remixicons/Editor/list-check.svg" class="filter-light" width=40 />
+						<h1>Methods</h1>
+					</div>
+				</section>
+				<section data-background-color="#ABC9DD">
+					<h1>Sample</h1>
+					<p>We will use data from the Province of Ontario Neurodevelopmental Disorders (POND) network, a
+						multi-centre research network that studies neurodevelopmental disorders.</p>
+					<p>There are five sites: Hospital for Sick Children (Toronto; 88), Holland Bloorview Kids
+						Rehabilitation Hospital (Toronto; 105), Western University (London; 113), McMaster University
+						(Hamilton; 114) and Queen’s University (Kingston; 394) </p>
+					<img src="assets/Sample.svg" width=100% />
+				</section>
+				<section data-background-color="#f3e7e9">
+					<h1>Measures</h1>
+					<img src="assets/Measures.svg" width=100% />
+				</section>
+				<section data-background-color="#f3e7e9">
+					<h2>Methods Overview</h2>
+					<img src="assets/Methods.svg" width=70% />
+				</section>
+				<section data-background-color="#66C8C9">
+					<h2>Data Cleaning</h2>
+					<p>Proper care to ensure the data is cleaned gives us greater confidence in the validity of our
+						statistical results and models.</p>
+					<div class="r-hstack">
+						<div class='fragment' style="padding: 1em; width: 25%;">
+							<h3 style='text-transform: none'>Removing Duplicate and Irrelevant Data</h3>
+							<ul>
+								<li>Some participants completed certain measures more than once</li>
+								<li>Most recent instance of a measure will be kept</li>
+							</ul>
+						</div>
+						<div class='fragment' style="padding: 1em; width: 25%;">
+							<h3 style='text-transform: none'>Handling Missing Data Points</h3>
+							<ul>
+								<li>Dropping participants with missing data + imputing data → not ideal</li>
+								<li>To maintain the information about missingness, we will label missing categorical
+									data with the new class of missing, and numeric data with a 0 or null value</li>
+							</ul>
+						</div>
+						<div class='fragment' style="padding: 1em; width: 25%;">
+							<h3 style='text-transform: none'>Fixing Structural Errors</h3>
+							<ul>
+								<li>Step is done con-currently with data visualization.</li>
+								<li>Examples: pooling IQ information, calculating exact age based on SCQ date,
+									separating diagnoses into binary variables</li>
+							</ul>
+						</div>
+						<div class='fragment' style="padding: 1em; width: 25%;">
+							<h3 style='text-transform: none'>Removing Outliers</h3>
+							<ul>
+								<li>Values outside of the valid range for a measure will be filtered out</li>
+								<li>If values are abnormally high or low, but still in a valid/acceptable range, we will
+									follow up with research staff.</li>
+							</ul>
+						</div>
+				</section>
+				<section data-background-color="#66C8C9">
+					<h2>Exploratory Data visualization</h2>
+					<p>Since this proposed study involves high dimensional data and a large dataset, visualization of
+						multidimensional data will be an important step in feature selection as well as the exploration
+						and identification of clusters.</p>
+				</section>
+				<section data-background-iframe="https://altair-viz.github.io/" data-background-interactive>
+					<div class=''>
+						<div class="fillbox">
+							<h1>Altair</h1>
+						</div>
+					</div>
+				</section>
+				<section
+					data-background-iframe="https://www.rdocumentation.org/packages/RnavGraph/versions/0.1.8/topics/navGraph"
+					data-background-interactive data-background-color="#fff">
+					<div class="fillbox">
+						<h1 style="color: #ffffff; text-transform: none;">RnavGraph</h1>
+						<img src="assets/NodeGraph.png" width=50% />
+					</div>
+				</section>
+				<section data-background-color="#66C8C9">
+					<div class="fillbox">
+						<h1 style="color: #ffffff; text-transform: none;">Parallel Coordinates Graphs</h1>
+						<img src="assets/ParallelGraph.png" width=30% />
+					</div>
+				</section>
+
+				<!-- Objective 1 -->
+				<section data-background-color="#F37666">
+					<div class='fillbox' style="color: #ffffff; padding: 0.5em;">
+						<h1 style="color: #ffffff;">Objective 1</h1>
+						<p>To determine the differential contribution of demographics (sex, race/ethnicity, and
+							socioeconomic status), IQ, sensory profiles, attention, anxiety, and language to social
+							communication abilities.</p>
+					</div>
+					<br>
+					<div class='fragment'>
+						<h3>Hypothesis</h3>
+						<p>We hypothesize that each of these seven factors will directly contribute to social
+							communication difficulties, albeit to different degrees. We also anticipate that
+							some of these factors will operate through indirect effects as suggested in the literature.
+						</p>
+					</div>
+					<div class='fragment'>
+						<h3>Analysis</h3>
+						<ol>
+							<li>Group SCQ items using <b>Exploratory and Confirmatory Factor Analysis</b></li>
+							<li>Model Generation using <b>Path Model Analysis</b></li>
+						</ol>
+					</div>
+				</section>
+				<section data-background-color="#313060" data-background="assets/hexagons.png"
+					data-background-size="100px" data-background-repeat="repeat">
+					<div>
+						<h1>Why Structural Equation Modelling (SEM)?</h1>
+						<p>Since the relationship between our 7 factors and social communications seems complex, we
+							require the use of more robust modelling techniques.</p>
+						<p>SEM refers to a group of statistical procedures (e.g., Factor Analysis, Path Analysis) that
+							give us insight relating to causal inference.</p>
+					</div>
+					<h2 class='fragment'>SEM compared to Tradition GLM Approaches</h2>
+					<div class='r-hstack'>
+						<div class='fragment' style="padding: .5em;">
+							<p>↑ Flexibility</p>
+						</div>
+						<div class='fragment' style="padding: .5em;">
+							<p>Theory-first Approach</p>
+						</div>
+						<div class='fragment' style="padding: .5em;">
+							<p>Latent and Observed Variables</p>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#1F4363">
+					<h1>Factor Analysis to Identify Subdomains in SCQ</h1>
+					<p>28 of the 40 questions on the Social Communication Questionnaire (SCQ) pertain to social
+						communication. However, the SCQ <u>lacks validated subdomains</u>.</p>
+					<div class='r-hstack'>
+						<div class='fragment' style="padding: .5em; width: 50%">
+							<h3 style='text-transform: none;'>Confirmatory Factor Analysis (CFA)</h3>
+							<p>There is a suggested mapping of SCQ questions to ADI domains: (1) Communication, (2)
+								Social Reciprocal Interaction. We will validate this two-factor mapping using CFA</p>
+						</div>
+						<div class='fragment' style="padding: .5em;  width: 50%">
+							<h3 style='text-transform: none;'>Exploratory Factor Analysis (EFA)</h3>
+							<p>We will also use EFA to explore alternative groupings (more than 2 factors) of social
+								communication skills. Have three or more subdomains allows for increased granularity in
+								the path model analysis.</p>
+						</div>
+					</div>
+					<div class="fragment"><u><b>Chi-squared test</b></u> will be used assess the fit of the factor
+						loadings</div>
+				</section>
+				<section data-background-color="#f3e7e9">
+					<h2>CFA Model of SCQ Items</h2>
+					<img src="assets/CFAModel.svg" width=80% />
+				</section>
+				<section data-background-color="#ffffff">
+					<h1>Path Analysis</h1>
+					<p>We will be using the iterative process of path analysis defined by Kline</p>
+					<p>We will be taking a <b><u>model generation approach</u></b>, where we start with a hypothesized
+						model and iteratively make changes to discover a pathway that models the data well. </p>
+					<img src="assets/PathAnalysisFlowchart.png" width=50% />
+				</section>
+				<section data-background-color="#f3e7e9">
+					<h2>1. Specify Path Model</h2>
+					<img src="assets/PathModel.svg" width=80% />
+				</section>
+				<section data-background-iframe="http://www.openmx-square.org/whatisopenmx.html"
+					data-background-interactive>
+					<div class=''>
+						<div class="fillbox">
+							<h2>2. Identify Model</h2>
+							<p>We will be using <u><b>OpenMX</b></u> as our statistical package. We will be sure that
+								the model is identified in the program</p>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#f3e7e9">
+					<h2>3. Select measures, collect data</h2>
+					<img src="assets/Measures.svg" width=80% />
+				</section>
+				<section data-background-color="#f3e7e9">
+					<h2>4. Determine if model fit is adequate</h2>
+					<p>As a industry standard, the following global fit statistics should be reported:</p>
+					<ol>
+						<li>Model chi- square with its degrees of freedom and p value</li>
+						<li>Steiger– Lind Root Mean Square Error of Approximation (RMSEA; Steiger, 1990) and its 90%
+							confidence interval</li>
+						<li>Bentler Comparative Fit Index (CFI; Bentler, 1990)</li>
+						<li>Standardized Root Mean Square Residual (SRMR)</li>
+					</ol>
+
+					<p>The first method tests a <u><b>exact-fit hypothesis</b></u> — there is no differences between the
+						covariances predicted by the model and the population covariance matrix.</p>
+					<p>Whereas, the other three models are <b><u>approximate fit indices </u></b>. There is no binary
+						decision to accept or reject the null hypothesis. These statistics provide a continuous measure
+						of "goodness-of-fit".</p>
+					<h2>5.Respecify Model</h2>
+					<p>There is an iterative process where the model is specified and incrementally improved</p>
+					<h2>6. Report Results</h2>
+					<p>Once we find a model that is (1) aligns with theory, (2) is parsimonious and (3) fits the data
+						well, we can report our results.</p>
+				</section>
+				<!-- Objective 2 -->
+				<section data-background-color="#F37666">
+					<div class='fillbox' style="color: #ffffff; padding: 0.5em;">
+						<h1 style="color: #ffffff;">Objective 2</h1>
+						<p>To identify subgroups of individuals with different social communication profiles and to
+							determine the predictors underlying each subgroup</p>
+					</div>
+					<br>
+					<div class='fragment'>
+						<h3>Hypothesis</h3>
+						<p>Although this objective is largely exploratory, we do have some expectations of what our
+							cluster will look like. For example, based on the research about facial emotion regulation
+							in ADHD, we might expect a subgroup of individuals who have attention issues and struggle
+							with social skills relating to the facial expressions.</p>
+					</div>
+					<div class='fragment'>
+						<h3>Analysis</h3>
+						<ol>
+							<li><b>Feature distributed multiview spectral clustering</b> will be used to identify
+								subgroups of individuals</li>
+							<li><b>Internal and external validation techniques</b> to assess cluster valid</li>
+						</ol>
+					</div>
+				</section>
+				<section data-background-color="#313060" data-background="assets/hexagons.png"
+					data-background-size="100px" data-background-repeat="repeat">
+					<div>
+						<h1>Why Feature-Distributed Multiview Spectral Clustering?</h1>
+						<h3 style='text-align: left;'>Clustering Methods:</h3>
+						<ul>
+							<li><b><u>Distance-based clustering</u></b>: K-Means, K-Mode, K-Medioids, Agglomerative,
+								Divisive</li>
+							<li><b><u>Density-based clustering</u></b>: DSCAN, STING, Grid-based clsutering</b></li>
+							<li><b><u>Probabilistic clustering</u></b>: assumes data follows a specific distrivution and
+								uses expectation maximization algorithm</li>
+							<li><b><u>Dimension-reduction clustering</u></b>: Probabilistic latent semantic indexing
+								(PLSI), Nonnegative matrix factorization (NMF), Spectral Clustering</li>
+							<li><b><u>Ensemble clustering</u></b>: Base clusterings are grouping of a set of objects
+								that are then clustered using different clustering algorithms. These base clusters are
+								combined to form a consensus solution.
+								<ul>
+									<li><b>Feature Distributed Clustering (FDC)</b> uses base clusterings that use
+										different subsets of features but the same data points</li>
+									<li><b>Object Distributed Clustering (ODC)</b> uses different subsets of data points
+										but all the same features.</li>
+								</ul>
+							</li>
+						</ul>
+						<br>
+						<h3>Clustering Plan</h3>
+						<p>Given the high dimensionality of the data, the dimension reduction clustering techniques are
+							necessary. The inclusion of multiview clustering, an ensemble techniques, will help us form
+							more robust clusters.</p>
+						<p>Each of the 7 factors along with the item-level SCQ scores will form a base clustering, the
+							data points will be kept consistent. The base clusterings will then be combined into
+							ensemble clusters using a similarity algorithm.</p>
+					</div>
+				</section>
+				<section data-background-color="#1F4363">
+					<h1>Cluster Validation</h1>
+					<p>A combination of internal and external validation measures will be used to assess the validity of
+						the clusters.</u>.</p>
+					<div class='r-hstack'>
+						<div class='fragment' style="padding: .5em; width: 50%">
+							<h3 style='text-transform: none;'>Internal Validation</h3>
+							<ul>
+								<li>Internal validations measures assess the <b><u>compactness</u></b> (i.e., how
+									closely items in a cluster are related) and <b><u>separation</u></b> of clusters
+									(i.e., how distinct or well-separated clusters are).</li>
+								<li>Examples: Root-mean-square standard deviation (ratio of sum of squares between
+									clusters and total sum of squares of dataset), silhouette index (the pairwise
+									difference between-cluster and within-cluster differences) and clustering validation
+									index (evaluates the intercluster separation using the Nearest Neighbours
+									algorithm)116</li>
+							</ul>
+						</div>
+						<div class='fragment' style="padding: .5em; width: 50%">
+							<h3 style='text-transform: none;'>External Validation</h3>
+							<ul>
+								<li>Clustering analysis will be repeated using social problems subscale of the CBCL and
+									the social function subscale ABAS. The agreement with clusters using the SCQ will be
+									measured.</li>
+								<li>We will also explore differences in measures of brain structure, connectivity, and
+									function for these subgroups. If there is an underlying connection between the brain
+									data and our clusters, we can have more confidence in our results. </li>
+								<li>We could also replicate the clustering in another dataset.</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<!-- Objective 3 -->
+				<section data-background-color="#F37666">
+					<div class='fillbox' style="color: #ffffff; padding: 0.5em;">
+						<h1 style="color: #ffffff;">Objective 3</h1>
+						<p>To determine whether the determinants of social communication differ across diagnoses (ASD,
+							ADHD, OCD) and typical development (TD)</p>
+					</div>
+					<br>
+					<div class='fragment'>
+						<h3>Hypothesis</h3>
+						<p>We anticipate that the ASD-specific and ADHD-specific path model and cluster analyses will
+							largely look the same. The overlap and co-occurring diagnoses between ASD and ADHD is
+							well-documented. ASD and ADHD also account for a large portion of pooled sample size that
+							the models were trained for objective one and two.
+						</p>
+						<p>We expect more pronounced differences with the OCD group since the incidence of co-occurrence
+							is much lower. </p>
+						<p>For the TD group, we expect that there will be difficulty discovering a path model with high
+							fit and discovering distinct clusters for the as this group rarely exhibits social
+							communication difficulties.</p>
+					</div>
+					<div class='fragment'>
+						<h3>Analysis</h3>
+						<ol>
+							<li>We will re-run the SEM and clustering analyses on data separated and pooled by the
+								diagnostic group to determine if our models and clusters hold.</li>
+						</ol>
+					</div>
+				</section>
+
+				<!-- Interpretation -->
+				<section data-background-color="#FCCB68">
+					<h1>Interpretation</h1>
+					<img src="assets/Interpretation.svg" width=80% />
+				</section>
+
+
+			</section>
+
+			<section data-background-color="#f3e7e9">
+				<h1>High Level Overview</h1>
+				<img src="assets/Objectives.svg" width=100% />
+			</section>
+
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script src="plugin/d3/reveald3.js"></script>
+	<script src="plugin/menu/menu.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+
+			dependencies: [
+				{ src: 'plugin/d3/reveald3.js' },
+				{ src: 'plugin/menu/menu.js' },
+			],
+
+		});
+
+		Reveal.initialize({ slideNumber: 'c/t' });
+
+
+	</script>
+</body>
+
+</html>
